@@ -1,0 +1,4 @@
+#!/bin/bash
+# this script convert .ipynb to .py (jupyter module necessary)
+
+jupyter nbconvert --to script $1
